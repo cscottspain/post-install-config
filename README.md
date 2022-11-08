@@ -30,60 +30,127 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-  Configure Roles
-Admin Panel -> Agents -> Roles
-Supreme Admin
-Configure Departments
-Admin Panel -> Agents -> Departments
-System Administrators
-Configure Teams
-Admin Panel -> Agents -> Teams
-Level I Support
-Level II Support
-Allow anyone to create tickets
-Admin Panel -> Settings -> User Settings
-Registration Required: Require registration and login to create tickets 
-Configure Agents (workers)
-Admin Panel -> Agents -> Add New
-Jane
-John
-Configure Users (customers)
-Agent Panel -> Users -> Add New
-Karen
-Ken
-Configure SLA
-Admin Panel -> Manage -> SLA
-Sev-A (1 hour, 24/7)
-Sev-B (4 hours, 24/7)
-Sev-C (8 hours, business hours)
-Configure Help Topics
-Admin Panel -> Manage -> Help Topics
-Business Critical Outage
-Personal Computer Issues
-Equipment Request
-Password Reset
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<ul>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html">Roles</a></p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Agents -&gt; Roles</p>
+            </li>
+            <li>
+                <p>Supreme Admin</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html">Departments</a></p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Agents -&gt; Departments</p>
+            </li>
+            <li>
+                <p>System Administrators</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html">Teams</a></p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Agents -&gt; Teams</p>
+                <ol>
+                    <li>
+                        <p>Level I Support</p>
+                    </li>
+                    <li>
+                        <p>Level II Support</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Allow anyone to create tickets</p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Settings -&gt; User Settings</p>
+            </li>
+            <li>
+                <p>Registration Required: Require registration and login to create tickets&nbsp;</p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html">Agents (workers)</a></p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Agents -&gt; Add New</p>
+                <ol>
+                    <li>
+                        <p>Jane</p>
+                    </li>
+                    <li>
+                        <p>John</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html">Users (customers)</a></p>
+        <ol>
+            <li>
+                <p>Agent Panel -&gt; Users -&gt; Add New</p>
+                <ol>
+                    <li>
+                        <p>Karen</p>
+                    </li>
+                    <li>
+                        <p>Ken</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure&nbsp;<a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA</a></p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Manage -&gt; SLA</p>
+                <ol>
+                    <li>
+                        <p>Sev-A (1 hour, 24/7)</p>
+                    </li>
+                    <li>
+                        <p>Sev-B (4 hours, 24/7)</p>
+                    </li>
+                    <li>
+                        <p>Sev-C (8 hours, business hours)</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Configure Help Topics</p>
+        <ol>
+            <li>
+                <p>Admin Panel -&gt; Manage -&gt; Help Topics</p>
+                <ol>
+                    <li>
+                        <p>Business Critical Outage</p>
+                    </li>
+                    <li>
+                        <p>Personal Computer Issues</p>
+                    </li>
+                    <li>
+                        <p>Equipment Request</p>
+                    </li>
+                    <li>
+                        <p>Password Reset</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ul>
